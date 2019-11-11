@@ -21,7 +21,6 @@ html {
 article {
   max-width: 43em;
   line-height: 1.3;
-  margin-left: .5em;
 }
 
 article h1 {
@@ -83,20 +82,56 @@ blockquote {
     font-size: 16px;
   }
 
+  article {
+    padding: 0 .25rem;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
+
+  article {
+    padding: 0 0.5rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  p {
+    font-size: 16.5px;
+  }
 
+  article {
+    line-height: 1.4;
+  }
+
+  blockquote {
+    padding-left: 2.5rem;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  article {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  p {
+    font-size: 17px;
+  }
 
+  article {
+    line-height: 1.5;
+  }
+
+  ol {
+    padding-left: 0;
+  }
 }
